@@ -1,16 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio — Tu Nombre</title>
 </head>
 <body>
-    <h1>proyecto final de modulo 1 de Mackaber</h1>
-    <h2> temas vistos</h2>
-    <li>Uso de herramientas de proyectos</li>
-    <li>Uso de git </li>
-    <li>Uso de gitHub</li>
-    <li>Bases de html </li>
+    <header>
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador/a web · Portafolio sencillo</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Soy una persona apasionada por la web. Me gusta crear páginas accesibles y limpias usando HTML semántico.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML semántico</li>
+                <li>Maquetación básica</li>
+                <li>Trabajo en equipo y comunicación</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+
+            <article>
+                <h3>Proyecto 1 — Sitio de ejemplo</h3>
+                <p>proyecto para prueba del curso</p>
+              
+            </article>
+
+            <article>
+                <h3>Proyecto 2 — Aplicación sencilla</h3>
+                <p>Descripción breve del proyecto. Presentación simple solo con HTML.</p>
+                <p><a href="#">Enlace al proyecto</a></p>
+            </article>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Correo: <a href="mailto:tu@ejemplo.com">tu@ejemplo.com</a></p>
+
+            <form action="https://sheetdb.io/api/v1/yhmw6q7hekqyn" method="post">
+                <div>
+                    <label>Nombre: <input type="text" name="nombre"></label>
+                </div>
+                <div>
+                    <label>Email: <input type="email" name="email"></label>
+                </div>
+               
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="anio">2025</span> Tu Nombre — Hecho solo con HTML</p>
+    </footer>
 </body>
 </html>
